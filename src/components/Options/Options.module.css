@@ -1,0 +1,37 @@
+.btn {
+  width: 70px;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 7px;
+  transition: 250ms ease-in;
+}
+
+.good:hover {
+  background-color: rgb(142, 238, 142);
+  border-color: rgb(142, 238, 142);
+  color: white;
+}
+
+.neutral:hover {
+  background-color: rgb(104, 146, 173);
+  border-color: rgb(104, 146, 173);
+  color: white;
+}
+
+.bad:hover {
+  background-color: rgb(230, 98, 98);
+  border-color: rgb(230, 98, 98);
+  color: white;
+}
+
+.reset:hover {
+  background-color: rgb(209, 204, 204);
+  color: white;
+  border-color: rgb(209, 204, 204);
+}
+
+.cont {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
