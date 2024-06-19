@@ -1,3 +1,7 @@
+.contactWrap {
+  margin-top: 20px;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -6,8 +10,9 @@
 
 .item {
   display: flex;
+  justify-content: space-between;
 
-  width: 200px;
+  width: 220px;
   height: 70px;
   padding: 10px;
 

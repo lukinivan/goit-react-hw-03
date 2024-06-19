@@ -3,7 +3,7 @@ import css from "./ContactList.module.css";
 
 export const ContactList = ({ contacts, onDelete }) => {
   return (
-    <div>
+    <div className={css.contactWrap}>
       <ul className={css.list}>
         {contacts.map((contact) => {
           return (
