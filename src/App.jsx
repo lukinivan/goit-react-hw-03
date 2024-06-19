@@ -1,10 +1,10 @@
-import { Container, CafeBuilder } from "./components";
+import { Container, ContactBuilder } from "./components";
 
 const App = () => {
   return (
     <>
       <Container>
-        <CafeBuilder />
+        <ContactBuilder />
       </Container>
     </>
   );
